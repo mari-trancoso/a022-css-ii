@@ -1,24 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 header{
     border-bottom: 1px solid black;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-image: linear-gradient(blue, violet);
   }
   
   main{
-    width: 800px;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 60px;
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    position: fixed;
+    right: 0;
+    bottom: 2rem;
+    text-align: center;
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: fixed;
+    bottom:0;
+    height: 1.5rem;
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+  }
+
+  button:active{
+    background-color: white;
+    color: black;
+  }
+
+  aside:active{
+    background-color: black;
+    color: white;
   }
